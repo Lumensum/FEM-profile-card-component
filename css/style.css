@@ -21,21 +21,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
+
   background-color: var(--clr-darkcyan);
-}
 
-.img--top {
-  position: absolute;
-  left: -17rem;
-  top: -25rem;
-  z-index: -10;
-}
-
-.img--bottom {
-  position: absolute;
-  right: -13rem;
-  bottom: -35rem;
-  z-index: -10;
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 40vh, left 46vw top 54vh;
+  background-attachment: fixed;
 }
 
 main {
