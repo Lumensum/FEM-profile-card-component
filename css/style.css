@@ -26,15 +26,15 @@ body {
 
 .img--top {
   position: absolute;
-  left: -22%;
-  top: -50%;
+  left: -17rem;
+  top: -25rem;
   z-index: -10;
 }
 
 .img--bottom {
   position: absolute;
-  right: -19%;
-  bottom: -70%;
+  right: -13rem;
+  bottom: -35rem;
   z-index: -10;
 }
 
