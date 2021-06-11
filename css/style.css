@@ -44,7 +44,7 @@ main {
 
 .card--top {
   height: auto;
-  background: url(/images/bg-pattern-card.svg) no-repeat;
+  background: url(../images/bg-pattern-card.svg) no-repeat;
   z-index: 10;
   text-align: center;
 }
